@@ -41,4 +41,5 @@ def turn(board)
     puts "Invalid input."
     turn(board)
   end
+  display_board(board)
 end
